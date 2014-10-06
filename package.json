@@ -41,6 +41,7 @@
     "require-dir": "~0.1.0"
   },
   "scripts": {
+    "prepublish": "bash ./bin/prepublish.sh",
     "install": "bower install",
     "start": "gulp watch"
   },
